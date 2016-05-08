@@ -1,6 +1,8 @@
-#Draws a circle via a 50 sided polygon using a Turtle; WARNING: Does NOT include Turtle set up. 
+#Draws a circle via a 50 sided polygon using a Turtle; Includes Turtle setup 
 
-import math
+import turtle
+
+t = turtle
 
 def polygon(t, n, length):
     angle = 360 / n
